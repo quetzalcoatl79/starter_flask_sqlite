@@ -9,38 +9,31 @@ Ce projet est un starter pour une application web utilisant Python Flask pour le
 ### Création d'un environnement virtuel Python
 
 #### Sous Linux/Mac
-\`\`\`bash
-python3 -m venv venv
-\`\`\`
+``python3 -m venv venv`` 
 
 #### Sous Windows
-\`\`\`bash
-py -3 -m venv venv
-\`\`\`
+``py -3 -m venv venv ``
+
 
 ### Activation de l'environnement virtuel
 
 #### Sous Linux/Mac
-\`\`\`bash
-source venv/bin/activate
-\`\`\`
+``source venv/bin/activate ``
+
 
 #### Sous Windows
-\`\`\`bash
-venv\Scripts\activate
-\`\`\`
+``venv\Scripts\activate ``
+
 
 ### Installation des dépendances
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
+``pip install -r requirements.txt ``
+
 
 ## Lancement de l'application
 
 Pour lancer l'application, utilisez la commande suivante :
-\`\`\`bash
-flask run
-\`\`\`
+``flask run ``
+
 
 ---
 
@@ -53,35 +46,29 @@ This project is a starter for a web application using Python Flask for the backe
 ### Creating a Python Virtual Environment
 
 #### On Linux/Mac
-\`\`\`bash
-python3 -m venv venv
-\`\`\`
+``python3 -m venv venv ``
+
 
 #### On Windows
-\`\`\`bash
-py -3 -m venv venv
-\`\`\`
+``py -3 -m venv venv ``
+
 
 ### Activating the Virtual Environment
 
 #### On Linux/Mac
-\`\`\`bash
-source venv/bin/activate
-\`\`\`
+
+``source venv/bin/activate ``
+
 
 #### On Windows
-\`\`\`bash
-venv\Scripts\activate
-\`\`\`
+``venv\Scripts\activate ``
+
 
 ### Installing Dependencies
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
+``pip install -r requirements.txt ``
+
 
 ## Running the Application
 
 To run the application, use the following command:
-\`\`\`bash
-flask run
-\`\`\`
+``flask run ``
