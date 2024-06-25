@@ -1,0 +1,11 @@
+# Ignorer les fichiers .db dans le dossier instance
+instance/*.db
+
+# Ignorer le dossier venv
+venv/
+
+# Ignorer le fichier .env
+.env
+
+# Ignore pycache
+__pycache__
