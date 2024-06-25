@@ -6,62 +6,12 @@
 <h1 class="text-center py-5">Welcome to the Main Page {%if user%}{{user.username}}{%endif%}</h1>
 <div id="carousel-1" class="carousel slide" style="height: 600px;">
     {%if user.username%}
-    <div class="carousel-inner h-100">
-        <div class="carousel-item active h-100">
-            
-            <div class="container flex flex-col justify-center h-full">
-                <div class="row">
-                    <div class="col-md-6 col-xl-4 offset-md-2">
-                        <div style="max-width: 350px;">
-                            <h1 class="text-uppercase font-bold">Biben dum<br />fringi dictum, augue purus</h1>
-                            <p class="my-3">Tincidunt laoreet leo, adipiscing taciti tempor. Primis senectus sapien, risus donec ad fusce augue interdum.</p>
-                            <a class="btn btn-primary btn-lg me-2" role="button" href="#">Button</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Repeat for other slides -->
-    </div>
-    <div>
-        <a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            <span class="visually-hidden">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="visually-hidden">Next</span>
-        </a>
-    </div>
-    <ol class="carousel-indicators">
-        <li class="active" data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
-        <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
-        <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
-    </ol>
+
 </div>
 
 <section class="py-20">
-    <div style="height: 600px;background: url('https://cdn.bootstrapstudio.io/placeholders/1400x800.png') center / cover;"></div>
-    <div class="container h-full relative" style="top: -50px;">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            <div class="col-span-1">
-                <div class="card bg-white rounded-lg shadow-lg">
-                    <div class="card-body pt-20 px-16">
-                        <div class="flex justify-center items-center absolute mb-12 rounded-full bg-blue-500 w-20 h-20" style="top: -30px;"><svg class="bi bi-bell" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                                <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"></path>
-                            </svg></div>
-                        <h4 class="card-title font-bold text-xl">Title</h4>
-                        <h6 class="text-gray-500 card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text text-gray-700">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
-                    </div>
-                    <div class="card-footer px-16 py-12"><a href="#" class="text-blue-500">Lear more <svg class="bi bi-arrow-right" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
-                            </svg></a></div>
-                </div>
-            </div>
-            <!-- Repeat for other cards -->
-        </div>
-    </div>
+   
+
     {%endif%}
 </section>
 
